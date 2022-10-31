@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes Tandilenses</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="barra">
+        <h2>Menu</h2><img class="imagen" src="imagenes/menu.png">
+
+        <ul>
+            <li><a href="index.html" class="Navegador">Home</a></li>
+            <li><a href="#" class="Navegador">Futbol</a></li>
+            <li><a href="tenis.html" class="Navegador">Tenis</a></li>
+            <li><a href="contacto.html" class="Navegador">Contacto</a></li>
+        </ul>
+    </div>
+    <h1 class="titulo">Actualidad del Futbol Tandilense</h1>
+
+    <div class="contenedor">
+        <img class="Imagenes" src="imagenes/santamarina.jpg" alt="club santamarina">
+        <p class="parrafo">Desde que asumieron la dupla tecnica al conjunto aurinegro aun no conocen lo que es la victoria.El ultimo partido santa consiguio un solo punto Y sigue siendo el ultimo en la tabla de posiciones y Ahora debe viajar a buenos aires a jugar contra el conjunto cervezero</p>
+        <img class="Imagenes" src="imagenes/independiente.jpg" alt="club independiente">
+        <p class="parrafo">El conjunto comando por gerardo villar cayo contra velense 2 1, el unico gol del "rojine" fue marcado por ignacio castro y siguien sin poder volver al nivel que los llevo a jugar la final el año pasado contra santamarina</p>
+        <img class="Imagenes" src="imagenes/ferro.jpg" alt="club ferro">
+        <p class="parrafo"> Ferro se quedo con el clasico tandilense, derrotó 3 a 0 a Santamarina por la séptima fecha del torneo local de Primera A y siguen luchando por quedarse con la punta del campeonato</p>
+    </div>
+
+
+    <h2 class="titulo">Tabla de goleadores de la primera local</h2>
+    <label for="">Ingrese un Goleador</label><input id="ingresar" type="text" value="">
+    <button id="enviargoleador" type="button">ENVIAR</button>
+    <div id="edicion">
+        
+    </div>
+    <table id="tablainteractiva" class="Tabla">
+        <thead>
+            <tr>
+                <th>NOMBRE</th><th></th>
+            </tr>
+        </thead>
+        <tbody class="Tablas">
+
+        </tbody>
+    </table>
+
+    <h2> Agregar nuevos goleadores a la lista</h2>   
+    <form action="" id="form">
+        <input type="text" name="nombre" placeholder="nombre" required>
+        <input type="text" placeholder="apellido" name="apellido" required>
+        <input type="text" placeholder="club" name="club" required>
+        <input type="number" placeholder="goles" name="goles" required>
+        <input type="submit">
+    </form>
+    
+    <button id="tres">Crear tres</button>
+    <button id="borrar">Borrar todo</button>
+    <table id="tabla">
+
+    </table>
+
+    <script src="js/main2.js"></script>
+    <script src="js/TablaInteractiva.js"></script>
+
+</body>
+
+</html>

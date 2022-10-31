@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes Tandilenses</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="barra">
+      <h2>Menu</h2><img class="imagen" src="imagenes/menu.png">
+
+      <ul>
+          <li><a href="index.html" class="Navegador">Home</a></li>
+          <li><a href="futbol.html" class="Navegador">Futbol</a></li>
+          <li><a href="tenis.html" class="Navegador">Tenis</a></li>
+          <li><a href="#" class="Navegador">Contacto</a></li>
+      </ul>
+    </div>
+      <h1 class="titulo">Formulario de Registro</h1>
+
+      <section class="form-registro">
+          <h3>Complete el Formulario</h3>
+          <form>
+          <input class="inputs" type="text" name="nombres" id="nombres" placeholder="ingrese su Nombre">
+          <input class="inputs" type="text" name="apellido" id="apellido" placeholder="ingrese su Apellido">
+          <input class="inputs" type="email" name="correo" id="correo" placeholder="ingrese su Correo electronico">
+          <input class="inputs" type="contraseña" name="contraseña" id="contraseña" placeholder="ingrese su contraseña">
+
+          <input class="boton" type="submit" value="Registrar">
+          <label for="capchaRandom">-Ingrese la respuesta:</label>
+          <div>
+            <span id="capchaRandom"></span>
+            <input type="text" name="" id="capchaUser" />
+            <button type="button" class="btnBoton" id="botonEnviar">Enviar</button>
+          </div>
+          <div>
+            <p id="respuestaCapcha"></p>
+          </div>
+          </form>
+      </section>
+
+
+      <script src="js/main.js"></script>
+</body>
+</html>
